@@ -71,7 +71,7 @@ public class NumberSortApp extends JFrame {
         JPanel rightPanel = new JPanel(new BorderLayout());
         rightPanel.add(buttonPanel, BorderLayout.NORTH);
 
-        sortPanel.add(new JPanel(), BorderLayout.CENTER);
+        sortPanel.add(new JPanel(), BorderLayout.WEST);
         sortPanel.add(rightPanel, BorderLayout.EAST);
 
         mainPanel.add(sortPanel, "Sort");
