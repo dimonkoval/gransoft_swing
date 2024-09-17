@@ -19,11 +19,11 @@ public class NumberSortApp extends JFrame {
     private static final int HEIGHT_APP = 400;
     private static final int NUMBER_INSET = 5;
 
-    private CardLayout cardLayout;
-    private JPanel mainPanel;
+    private final CardLayout cardLayout;
+    private final JPanel mainPanel;
     private JPanel sortPanel;
     private JTextField numberField;
-    private List<Integer> numbers = new ArrayList<>();
+    private final List<Integer> numbers = new ArrayList<>();
     private boolean isAscending = true;
 
     public NumberSortApp() {
