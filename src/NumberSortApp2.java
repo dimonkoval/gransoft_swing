@@ -23,7 +23,7 @@ import java.util.Collections;
 import java.util.Random;
 import java.util.logging.Logger;
 
-public class NumberSortApp extends JFrame {
+public class NumberSortApp2 extends JFrame {
     private static final Color COLOR_RED = Color.RED;
     private static final Color COLOR_YELLOW = new Color(204, 204, 0);
     private static final Color COLOR_BLUE = new Color(0, 0, 139);
@@ -49,7 +49,7 @@ public class NumberSortApp extends JFrame {
     private boolean isAscending = true;
     private volatile boolean sortingInProgress = false;
 
-    public NumberSortApp() {
+    public NumberSortApp2() {
         setTitle("Number Sort Application");
         setSize(WIDTH_APP, HEIGHT_APP);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -311,6 +311,6 @@ public class NumberSortApp extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(NumberSortApp::new);
+        SwingUtilities.invokeLater(NumberSortApp2::new);
     }
 }
