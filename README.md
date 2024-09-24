@@ -13,7 +13,7 @@ Sort button:
 * Clicking the sort button will sort the presented numbers in a descending order
 * Clicking the sort button again, will change it to increasing order
 * The screen should be updated after each iteration of quick-sort (i.e. re-implement quick-
-sort; copy/paste of existing implementation is permitted).
+sort; copy/paste of existing implementation is permitted. You need to visualize the sorting process itself, and not just show the finished result.). 
 
 Reset button:
 * Takes back to intro screen.
