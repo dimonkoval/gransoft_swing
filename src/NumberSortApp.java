@@ -38,7 +38,7 @@ public class NumberSortApp extends JFrame {
     private static final int HEIGHT_APP = 400;
     private static final int NUMBER_INSET = 5;
     private static final int PAUSE_IN_MILLIS = 400;
-    private static final Logger LOGGER = Logger.getLogger(NumberSortApp2.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(NumberSortApp.class.getName());
 
     private final CardLayout cardLayout;
     private final JPanel mainPanel;
