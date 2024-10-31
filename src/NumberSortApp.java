@@ -42,6 +42,7 @@ public class NumberSortApp extends JFrame {
 
     private final CardLayout cardLayout;
     private final JPanel mainPanel;
+    private final Random rand = new Random();
     private final List<JButton> buttons = new ArrayList<>();
     private final List<Integer> numbers = new ArrayList<>();
     private JTextField numberField;
@@ -107,7 +108,6 @@ public class NumberSortApp extends JFrame {
     }
 
     private void generateRandomNumbers(int count) {
-        Random rand = new Random();
         numbers.clear();
         for (int i = 0; i < count; i++) {
             numbers.add(rand.nextInt(MAX_VALUE_NUMBER) + 1);
@@ -215,7 +215,6 @@ public class NumberSortApp extends JFrame {
         component2.setBackground(COLOR_BLUE);
 
         GridBagLayout layout = (GridBagLayout) buttonPanel.getLayout();
-
         GridBagConstraints gbc1 = layout.getConstraints(component1);
         GridBagConstraints gbc2 = layout.getConstraints(component2);
 
