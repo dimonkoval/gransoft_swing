@@ -96,7 +96,6 @@ public class NumberSortApp extends JFrame {
 
         JButton resetButton = createButton("Reset", COLOR_GREEN, e -> handleResetButton());
         JButton sortButton = createButton("Sort", COLOR_GREEN, e -> new Thread(this::handleSortButton).start());
-
         addComponent(controlPanel, sortButton, gbc, 0);
         addComponent(controlPanel, resetButton, gbc, 1);
 
