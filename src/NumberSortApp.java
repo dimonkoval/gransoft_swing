@@ -98,7 +98,6 @@ public class NumberSortApp extends JFrame {
         JButton sortButton = createButton("Sort", COLOR_GREEN, e -> new Thread(this::handleSortButton).start());
         addComponent(controlPanel, sortButton, gbc, 0);
         addComponent(controlPanel, resetButton, gbc, 1);
-
         gbc.weighty = 1.0;
         controlPanel.add(new JPanel(), gbc);
 
